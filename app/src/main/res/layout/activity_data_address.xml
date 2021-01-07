@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataAddress"
+    android:background="#FFFFFF"
+    android:padding="12dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="Name"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textView3" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText6"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="Age"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textView4" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText7"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="Gender"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textView7" />
+
+<!--                <EditText-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:id="@+id/editText10"-->
+<!--                    android:textSize="25dp"-->
+<!--                    android:layout_weight="1" />-->
+                <Spinner
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent"
+                    android:textSize="35dp"
+                    android:entries="@array/gender"
+                    android:id="@+id/gender"
+                    android:outlineSpotShadowColor="@color/White"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="Address"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textView5" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editTextAddress"
+                    android:textSize="18dp"
+                    android:completionHint="If not found,fill in or use GPS"
+                    android:layout_weight="1" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonCurrentLocation"
+                    android:text="GPS\n (Area)"
+                    android:textSize="10dp"/>
+                <ProgressBar
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/progressBar"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="Phone"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textView6" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText9"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    android:inputType="number" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="Medical Condition"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textView2" />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:completionThreshold="1"
+                    android:id="@+id/actv"
+                    android:gravity="center_vertical"
+                    android:completionHint="If not found,fill in others"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:text="Other \n(Specify)"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textViewOther" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText5"
+                    android:textSize="25dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="105dp"
+                    android:text="Are you/were you infected with Covid-19?"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:id="@+id/textViewCovid" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <RadioButton
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:id="@+id/radioyes"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="40dp"
+                        android:padding="10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/radiono"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:padding="10dp"
+                        android:text="No"
+                        />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:id="@+id/button5"
+                android:layout_gravity="center_horizontal"
+                android:onClick="fnRegister"
+                android:textSize="40dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#1F1E1E"
+                android:textAllCaps="false"
+                android:background="@drawable/cusbut1"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

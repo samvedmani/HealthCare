@@ -1,0 +1,343 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">HealthCare</string>
+    <string name="title_activity_main2">HealthCare Planner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+    <string name="title_medicine_name">Medicine/Appointment Name</string>
+    <string name="hint_enter_med_name">Enter The Name</string>
+    <string name="medicine_days">Reminder Days</string>
+    <string name="title_treatment_deadline">Treatment deadline</string>
+    <string name="title_continuous_use">Continuous use</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="new_medicine">NEW MEDICINE</string>
+    <string name="every_day">Every day</string>
+    <string name="no_medicine_added">No Reminder Added</string>
+    <string name="loading_tasks_error">Error while loading medicineAlarms</string>
+    <string name="successfully_saved_me_message">Medicine Added Successfully</string>
+    <string name="successfully_deleted_message">Medicine deleted Successfully</string>
+    <string name="reminder_message">It\'s Time to take your medicine</string>
+    <string name="ignored">IGNORED</string>
+    <string name="taken">TAKEN</string>
+    <string name="all">ALL</string>
+    <string name="menu_filter">Filter</string>
+    <string name="all_label">All Medicines</string>
+    <string name="ignore_label">Medicines Ignored</string>
+    <string name="taken_label">Medicine Taken</string>
+    <string name="no_history">No History Found</string>
+    <string name="no_taken_med_history">You have not taken any medicine</string>
+    <string name="no_ignored_history">Well Done</string>
+    <string name="menu_stats">Monthly Report</string>
+    <string name="reminder_title">AlarmReminder</string>
+    <string name="add_now">Add Now</string>
+    <string name="title_activity_images">ImagesActivity</string>
+    <string name="facebook_app_id">1620285218129314</string>
+    <string name="fb_login_protocol_scheme">fb1620285218129314</string>
+    <string name="menuitem_help">Help</string>
+    <string name="menuitem_about">About …</string>
+    <string name="current_day">Current day</string>
+    <string name="menuitem_list">List</string>
+    <string name="menuitem_listdetails">List with details</string>
+    <string name="menuitem_copy">Backup</string>
+    <string name="menuitem_restore">Restore</string>
+    <string name="menuitem_options">Preferences</string>
+    <string name="menuitem_exit">Go Back</string>
+    <string name="main_calday_su">SU</string>
+    <string name="main_calday_mo">MO</string>
+    <string name="main_calday_tu">TU</string>
+    <string name="main_calday_we">WE</string>
+    <string name="main_calday_th">TH</string>
+    <string name="main_calday_fr">FR</string>
+    <string name="main_calday_sa">SA</string>
+    <string name="main_calday_su_description">sunday</string>
+    <string name="main_calday_mo_description">monday</string>
+    <string name="main_calday_tu_description">tuesday</string>
+    <string name="main_calday_we_description">wednesday</string>
+    <string name="main_calday_th_description">thursday</string>
+    <string name="main_calday_fr_description">friday</string>
+    <string name="main_calday_sa_description">saturday</string>
+    <string name="details_title">Details</string>
+    <string name="list_title">List</string>
+    <string name="list_details_title">List with details</string>
+    <string name="about_title">About …</string>
+    <string name="help_title">Help</string>
+    <string name="backup_title">Backup data</string>
+    <string name="backup_text">Do you want to backup the current data?\nThis will replace the last backup!</string>
+    <string name="backup_selectfolder">Please select where to save the backup. You need to give access to the selected location, which will be used for this and all future backups.\n\nTo learn more about how backup works, please refer to the help menu.</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_newfolder">Select new location</string>
+    <string name="backup_help">Help</string>
+    <string name="backup_finished">Backup done</string>
+    <string name="backup_noruiyet">no location selected yet</string>
+    <string name="backup_failed">Backup failed!</string>
+    <string name="restore_title">Restore data</string>
+    <string name="restore_selectfolder">Please select the location, where the backup was saved (the location with the folder \"de.arnowelzel.android.periodical\").</string>
+    <string name="restore_text">Do you want to restore the last backup?\nThis will replace the current data!</string>
+    <string name="restore_ok">OK</string>
+    <string name="backup_cancel">Cancel</string>
+    <string name="restore_cancel">Cancel</string>
+    <string name="restore_finished">Restore done</string>
+    <string name="restore_failed">Restore failed!</string>
+    <string name="permissions_needed">To create or restore backups, Periodical needs permission to access file storage.</string>
+    <string name="permissions_needed_ok">OK</string>
+    <string name="event_periodstart">Period has started</string>
+    <string name="event_covidperiodstart">Infection Detected</string>
+    <string name="event_periodlength">Last cycle had %s days</string>
+    <string name="event_covidperiodlength">Last infection cycle had %s days</string>
+    <string name="event_ignored">Cycle length ignored</string>
+    <string name="event_periodfirst">First entry</string>
+    <string name="calendaraction_title">Edit calendar entry</string>
+    <string name="calendaraction_add">Mark this day as \"Period\"?</string>
+    <string name="ccalendaraction_add">Mark this day as \"Infected\"?</string>
+    <string name="calendaraction_remove">Remove the \"Period\" mark for this day?</string>
+    <string name="calendaraction_removeperiod">Remove this Period?</string>
+    <string name="ccalendaraction_removeperiod">Remove this Infection Period?</string>
+    <string name="calendaraction_ok">Yes</string>
+    <string name="calendaraction_cancel">No</string>
+    <string name="calendaraction_details">Edit details</string>
+    <string name="options_title">Preferences</string>
+    <string name="pref_periodlength">Default length of period (days)</string>
+    <string name="pref_homelength">Default days selected</string>
+    <string name="invalid_period_length">The default period length must be between 1 and 14!</string>
+    <string name="invalid_def_length">The default period length must be 5!</string>
+    <string name="pref_luteallength">Luteal phase length (days)</string>
+    <string name="Home_quarantine">Home Quarantine(days)</string>
+    <string name="invalid_luteal_length">The luteal length must be at least 1!</string>
+    <string name="invalid_home_length">The Home quarantine must be at least 7 days!</string>
+    <string name="pref_startofweek">Start of the week</string>
+    <string-array name="list_startofweek">
+        <item>Sunday</item>
+        <item>Monday</item>
+    </string-array>
+    <string-array name="values_startofweek">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pref_maximum_cycle_length">Maximum cycle length</string>
+    <string name="invalid_maximum_cycle_length">The maximum cycle length must be at least 60!</string>
+    <string name="pref_direct_details">Go directly to the details</string>
+    <string name="pref_show_cycle">Show day of cycle</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+    <string name="label_average_cycle">average cycle</string>
+    <string name="label_shortest_cycle">shortest cycle</string>
+    <string name="label_longest_cycle">longest cycle</string>
+    <string name="label_infertile">infertile</string>
+    <string name="label_fertile">fertile</string>
+    <string name="label_period_started">period has started</string>
+    <string name="label_period">period</string>
+    <string name="label_period_predicted">period predicted</string>
+    <string name="label_ovulation">ovulation</string>
+    <string name="asset_about">en/about.html</string>
+    <string name="asset_cabout">en/c_about.html</string>
+    <string name="asset_help">en/help.html</string>
+    <string name="asset_chelp">en/c_help.html</string>
+    <string name="label_details_period">Period</string>
+    <string name="label_details_yes">Yes</string>
+    <string name="label_details_no">No</string>
+    <string name="label_details_intensity">Intensity</string>
+    <string name="label_details_intensity1">1</string>
+    <string name="label_details_intensity2">2</string>
+    <string name="label_details_intensity3">3</string>
+    <string name="label_details_intensity4">4 (strong)</string>
+    <string name="label_details_notes">Notes</string>
+    <string name="label_details_events">Events</string>
+    <string name="label_details_mood">Mood</string>
+    <string name="label_details_symptoms">Symptoms</string>
+    <string name="label_details_ev1" tools:keep="@string/label_details_ev1">Intercourse</string>
+    <string name="label_details_ev2" tools:keep="@string/label_details_ev2">Cramps</string>
+    <string name="label_details_ev3" tools:keep="@string/label_details_ev3">Back pain</string>
+    <string name="label_details_ev4" tools:keep="@string/label_details_ev4">Middle pain left</string>
+    <string name="label_details_ev5" tools:keep="@string/label_details_ev5">Middle pain right</string>
+    <string name="label_details_ev6" tools:keep="@string/label_details_ev6">Breast pain/dragging pain</string>
+    <string name="label_details_ev7" tools:keep="@string/label_details_ev7">Thrush/candida</string>
+    <string name="label_details_ev8" tools:keep="@string/label_details_ev8">Discharge</string>
+    <string name="label_details_ev9" tools:keep="@string/label_details_ev9">Intense bleeding</string>
+    <string name="label_details_ev10" tools:keep="@string/label_details_ev10">Temperature fluctuations</string>
+    <string name="label_details_ev11" tools:keep="@string/label_details_ev11">Pimples</string>
+    <string name="label_details_ev12" tools:keep="@string/label_details_ev12">Bloating</string>
+    <string name="label_details_ev13" tools:keep="@string/label_details_ev13">Fainting</string>
+    <string name="label_details_ev14" tools:keep="@string/label_details_ev14">Grumpiness</string>
+    <string name="label_details_ev15" tools:keep="@string/label_details_ev15">Nausea</string>
+    <string name="label_details_ev16" tools:keep="@string/label_details_ev16">Cravings</string>
+    <string name="label_details_ev17" tools:keep="@string/label_details_ev17">Headache/migraine</string>
+    <string name="label_details_ev18" tools:keep="@string/label_details_ev18">Contraceptive pill</string>
+    <string name="label_details_ev19" tools:keep="@string/label_details_ev19">Spotting</string>
+    <string name="label_details_ev20" tools:keep="@string/label_details_ev20">Tired</string>
+    <string name="label_details_ev21" tools:keep="@string/label_details_ev21">Energized</string>
+    <string name="label_details_ev22" tools:keep="@string/label_details_ev22">Sad</string>
+    <string name="label_details_ev23" tools:keep="@string/label_details_ev23">Edgy</string>
+    <string name="label_period_day">Period, day %d</string>
+    <string name="label_covidperiod_day">Infection Period, day %d</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <string name="loading">Loading…</string>
+    <string name="log_error_occurred">"Error occurred: "</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="web_client_id">Include your web client id here</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="Conditions">
+        <item>None</item>
+        <item>High BP</item>
+        <item>Low BP</item>
+        <item>Diabetes</item>
+        <item>Cholesterol</item>
+        <item>Arthritis</item>
+        <item>Asthma</item>
+        <item>Tumors</item>
+        <item>Cancer</item>
+        <item>Bronchitis</item>
+        <item>Corona Virus</item>
+        <item>Nerve Disorder</item>
+        <item>Hepatitis A</item>
+        <item>Hepatitis B</item>
+        <item>Hepatitis C</item>
+        <item>Heart Disease</item>
+        <item>Schizophrenia</item>
+        <item>Seizures</item>
+        <item>STDs</item>
+        <item>AIDs</item>
+        <item>SARS</item>
+        <item>Anxiety</item>
+        <item>Depression</item>
+        <item>Fever</item>
+        <item>Flu</item>
+        <item>Headache</item>
+        <item>Bodyache</item>
+        <item>Migraine</item>
+        <item>Sinusitis</item>
+        <item>Anaemia</item>
+        <item>Obesity</item>
+        <item>Hypertension</item>
+        <item>Depressive disorder</item>
+        <item>UTI</item>
+        <item>Common Cold</item>
+        <item>Diarrhea</item>
+        <item>Allergies</item>
+        <item>Coronavirus</item>
+        <item>Throat Infection</item>
+    </string-array>
+
+    <string-array name="country_code">
+        <item>+91</item>
+        <item>+61</item>
+        <item>+65</item>
+        <item>+94</item>
+        <item>+33</item>
+        <item>+1</item>
+        <item>+62</item>
+        <item>+81</item>
+        <item>+60</item>
+        <item>+95</item>
+        <item>+92</item>
+        <item>+63</item>
+        <item>+7</item>
+        <item>+94</item>
+        <item>+82</item>
+        <item>+84</item>
+        <item>+93</item>
+        <item>+880</item>
+        <item>+975</item>
+        <item>+86</item>
+        <item>+20</item>
+        <item>+852</item>
+        <item>+98</item>
+        <item>+965</item>
+        <item>+960</item>
+        <item>+977</item>
+        <item>+966</item>
+        <item>+886</item>
+        <item>+66</item>
+        <item>+90</item>
+        <item>+971</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+
+    <string name="label_ev1" tools:keep="@string/label_ev1">Vaccination</string>
+    <string name="label_ev2" tools:keep="@string/label_ev2">Throat Pain/Sore Throat</string>
+    <string name="label_ev3" tools:keep="@string/label_ev3">Back pain</string>
+    <string name="label_ev4" tools:keep="@string/label_ev4">Loss of Taste</string>
+    <string name="label_ev5" tools:keep="@string/label_ev5">Loss of Smell</string>
+    <string name="label_ev6" tools:keep="@string/label_ev6">Loss of Speech</string>
+    <string name="label_ev7" tools:keep="@string/label_ev7">Loss of Movement</string>
+    <string name="label_ev8" tools:keep="@string/label_ev8">Shortness of breath</string>
+    <string name="label_ev9" tools:keep="@string/label_ev9">Headache/migraine</string>
+    <string name="label_ev10" tools:keep="@string/label_ev10">Chest pain or Pressure</string>
+    <string name="label_ev11" tools:keep="@string/label_ev11">Diarrhoea</string>
+    <string name="label_ev12" tools:keep="@string/label_ev12">Bloating</string>
+    <string name="label_ev13" tools:keep="@string/label_ev13">Fainting</string>
+    <string name="label_ev14" tools:keep="@string/label_ev14">Grumpiness</string>
+    <string name="label_ev15" tools:keep="@string/label_ev15">Nausea</string>
+    <string name="label_ev16" tools:keep="@string/label_ev16">Conjunctivitis</string>
+    <string name="label_ev17" tools:keep="@string/label_ev17">Dry Cough</string>
+    <string name="label_ev18" tools:keep="@string/label_ev18">Drips/Ventilator</string>
+    <string name="label_ev19" tools:keep="@string/label_ev19">Temperature fluctuations</string>
+    <string name="label_ev20" tools:keep="@string/label_ev20">Tired</string>
+    <string name="label_ev21" tools:keep="@string/label_ev21">Energized</string>
+    <string name="label_ev22" tools:keep="@string/label_ev22">Sad</string>
+    <string name="label_ev23" tools:keep="@string/label_ev23">Edgy</string>
+
+</resources>

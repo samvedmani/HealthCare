@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:paddingTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/about"
+        android:textStyle="bold"
+        />
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:layout_below="@+id/about"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed by:\nSamved Mani"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/dev"
+            android:textColor="#201F1F"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_below="@id/dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="Email : \n samvedmani30@gmail.com "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#201F1F"
+            android:textStyle="italic"
+            android:id="@+id/email"/>
+
+        <TextView
+            android:layout_below="@id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELPLINES(INDIA)"
+            android:textSize="35dp"
+            android:textColor="#000"
+            android:paddingTop="80dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/help"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_below="@id/help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="Ambulance : 102, 108\nPolice : 100\nAccident : 103\nNational Emergency Number : 112\nWomen Helpline : 1091\nSenior Citizen Helpline : 1091, 1291"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#201F1F"
+            android:textStyle="bold"
+            android:id="@+id/emergency"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

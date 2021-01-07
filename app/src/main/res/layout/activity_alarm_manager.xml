@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyAlarmManager"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Medicine name"
+        android:id="@+id/edt"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/setAlarm"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Set alarm"
+            android:background="@drawable/cusbut1"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/cancelAlarm"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel alarm"
+            android:background="@drawable/cusbut1"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

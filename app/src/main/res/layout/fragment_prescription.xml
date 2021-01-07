@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Records"
+        android:textSize="45dp"
+        android:id="@+id/rec"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload your medical records for safe and easier access.\nRetrieve it at the click of a button."
+        android:textSize="30dp"
+        android:layout_below="@id/rec"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:id="@+id/textpres"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/prescription"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textpres"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/cusbut"
+        android:gravity="center"
+        android:text="Click to Upload"
+        android:textColor="#FAF0F0" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/prescription"
+        android:layout_marginTop="50dp"
+        android:text="Try OCR"
+        android:background="@drawable/cusbut"
+        android:textColor="#FFFFFF"
+        android:id="@+id/ocr"/>
+
+
+</RelativeLayout>

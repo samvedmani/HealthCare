@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="45dp"
+        android:id="@+id/p1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View your \n Profile details"
+        android:textSize="30dp"
+        android:id="@+id/p2"
+        android:layout_below="@id/p1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="View Google login details"
+        android:layout_marginTop="65dp"
+        android:layout_below="@id/det"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/profile"
+        android:background="@drawable/cusbut"
+        android:textColor="#FFFFFF"
+        />
+<!--    <Button-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="View Facebook login details"-->
+<!--        android:layout_below="@id/profile"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="45dp"-->
+<!--        android:id="@+id/fb"-->
+<!--        android:background="@drawable/cusbut"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        />-->
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/p2"
+        android:layout_marginTop="130dp"
+        android:text="View your \n Details"
+        android:background="@drawable/cusbut"
+        android:textColor="#FFFFFF"
+        android:id="@+id/det"/>
+</RelativeLayout>

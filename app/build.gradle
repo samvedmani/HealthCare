@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'healthcare'
+            keyPassword 'test123'
+            storeFile file('C:\\Users\\User\\AndroidStudioProjects\\Healthcare\\app')
+            storePassword 'test123'
+        }
+    }
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.example.healthcare"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "String", "VERSION_YEAR", "\"2020\""
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        signingConfig signingConfigs.config
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            pseudoLocalesEnabled true
+            proguardFile 'C:\\Users\\User\\AndroidStudioProjects\\Healthcare\\app\\proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    //noinspection GradleCompatible
+    implementation 'com.google.android.material:material:1.1.0'
+
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'androidx.wear:wear:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    androidTestImplementation "junit:junit:$rootProject.ext.junitVersion"
+    //noinspection GradleCompatible
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.room:room-runtime:2.2.5'
+    annotationProcessor 'androidx.room:room-compiler:2.2.5'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:26.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation "com.github.sundeepk:compact-calendar-view:$rootProject.compactCalendarViewVersion"
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    compileOnly 'com.google.android.wearable:wearable:2.4.0'
+
+    implementation 'com.firebase:firebase-client-android:2.4.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'de.hdodenhof:circleimageview:1.3.0'
+    implementation 'com.google.firebase:firebase-core:17.0.0'
+    implementation 'com.facebook.android:facebook-login:[5,6)'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.2.0'
+    implementation 'com.github.apl-devs:appintro:v4.2.3'
+    implementation 'com.google.firebase:firebase-ml-vision:15.0.0'
+    // implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
+
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    implementation 'com.google.android.gms:play-services-vision:16.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trackers"
+        android:textSize="45dp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/r1"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep track of your menstrual cycles.\nNow you can also use the Covid-19 self-tracker"
+        android:textSize="30dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000"
+        android:id="@+id/r2"
+        android:textAlignment="center"
+        android:layout_below="@id/r1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+
+
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="Period Tracker"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/period"
+        android:background="@drawable/cusbut"
+        android:textColor="#FAF0F0"
+        android:layout_below="@id/r2"
+        android:layout_marginTop="140dp"
+        />
+
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="Covid-19\nSelf-Tracker"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/corona"
+        android:background="@drawable/cusbut"
+        android:textColor="#FAF0F0"
+        android:layout_below="@id/period"
+        android:layout_marginTop="45dp"/>
+</RelativeLayout>
